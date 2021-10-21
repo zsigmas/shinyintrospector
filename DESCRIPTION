@@ -1,0 +1,18 @@
+Package: shinyintrospector
+Type: Package
+Title: A package for introspecting Shiny applications
+Version: 0.0.0-900
+Authors@R: person("Luis", "Moris Fernandez", email = "luis.moris.fernandez@gmail.com",
+                  role = c("aut", "cre"))
+Description: This package helps debugging and introspecting shiny applications.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Config/testthat/parallel: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    shiny (>= 1.6.0)
